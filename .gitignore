@@ -1,0 +1,12 @@
+_*
+Library
+Logs
+Packages
+Temp
+UserSettings
+obj
+*.sln
+*.csproj
+.DS_Store
+Debug
+.vscode
