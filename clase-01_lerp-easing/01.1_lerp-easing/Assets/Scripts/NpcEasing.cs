@@ -19,7 +19,7 @@ public class NpcEasing : MonoBehaviour
   void Update()
   {
     // se cambia de posición
-    transform.position = Vector3.LerpUnclamped(startPosition, endPosition, Tweens.Parabolic(tPosition));
+    transform.position = Vector3.LerpUnclamped(startPosition, endPosition, Easing.Parabolic(tPosition));
     tPosition += dtPosition * Time.deltaTime;
 
     if (tPosition > 1) tPosition = 0;

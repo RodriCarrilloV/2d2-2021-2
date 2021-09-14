@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Tweens
+public class Easing
 {
   // no hace ningún cambio
   public static float Linear(float t)
